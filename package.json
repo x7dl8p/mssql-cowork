@@ -1,0 +1,14 @@
+{
+  "name": "mssql-cowork",
+  "version": "1.0.0",
+  "description": "Claude Cowork plugin for read-only MSSQL / SAP Business One access",
+  "private": true,
+  "scripts": {
+    "bundle": "cd mcp-server && npm install && npx @vercel/ncc build index.js -o dist",
+    "package": "node scripts/package.js",
+    "build": "npm run bundle && npm run package"
+  },
+  "devDependencies": {
+    "esbuild": "^0.21.0"
+  }
+}

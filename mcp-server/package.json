@@ -1,0 +1,16 @@
+{
+  "name": "mssql-cowork-server",
+  "version": "0.1.0",
+  "description": "MCP stdio server for Microsoft SQL Server — used by the mssql-cowork Claude plugin",
+  "main": "index.js",
+  "scripts": {
+    "setup": "node setup.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "mssql": "^11.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

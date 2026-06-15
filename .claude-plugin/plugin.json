@@ -1,0 +1,16 @@
+{
+  "name": "mssql-cowork",
+  "version": "0.1.0",
+  "installationPreference": "required",
+  "description": "Connect Claude to any Microsoft SQL Server database. Query tables, inspect schemas, and run analytics with read-only safety. Includes an optional SAP Business One skill.",
+  "author": {
+    "name": "Mohammad"
+  },
+  "keywords": [
+    "mssql",
+    "sql-server",
+    "database",
+    "analytics",
+    "sap-business-one"
+  ]
+}
